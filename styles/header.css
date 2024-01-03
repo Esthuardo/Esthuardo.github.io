@@ -3,3 +3,13 @@ header{
     margin-top: 1.5rem;
     margin-bottom: 1.0625rem;
 }
+.logo{
+    width: 7rem;
+    height: 2rem;
+}
+@media (max-width: 768px) {
+    header{
+        margin-left:1.3125rem;
+        margin-bottom: 2.75rem;
+    }
+}

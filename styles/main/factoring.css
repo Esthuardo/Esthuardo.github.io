@@ -1,6 +1,9 @@
 .factoring{
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: #004470;
+    /* width: 100%; */
 }
 .replace{
     display: flex;
