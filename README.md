@@ -8,4 +8,16 @@
 - [ X ] El campo del correo electrónico: Debe permitir el ingreso de un correo que cumpla con el formato correcto.
 - [ X ] El campo del checkbox: Debe de estar seleccionado por defecto.
 - [ X ] El botón “Solicitar” solo se activará si los campos anteriores han sido completados y validados correctamente.
-- [ ] El diseño deberá ser maquetado para la versión mobile y desktop (responsive)
+- [ X ] El diseño deberá ser maquetado para la versión mobile y desktop (responsive)
+
+# Postulante:
+
+    Esthuardo Geovany Quispe Felix
+
+# Github:
+
+    https://github.com/Esthuardo/Esthuardo.github.io
+
+# GitPages:
+
+    https://esthuardo.github.io/pages/index
