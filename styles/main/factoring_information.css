@@ -27,11 +27,11 @@
     list-style-type: none;
 }
 .information ul li {
-  background-image: url("../../src/list-ckeck.svg");
-  background-position: left top;
-  background-repeat: no-repeat;
-  padding-left: 1.5rem;
-  padding-right: 1rem;
+    background-image: url("../../src/list-ckeck.svg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
 }
 .information strong{
     font-weight: 800;
