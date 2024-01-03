@@ -1,0 +1,12 @@
+.img1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.div_img2{
+    padding-top: 1.5625rem;
+}
+.img2{
+    position: absolute;
+    right: 0;
+}

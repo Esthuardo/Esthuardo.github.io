@@ -5,7 +5,8 @@
 @import "./main/hero.css";
 @import "./main/factoring.css";
 @import "./main/factoring_information.css";
-
+@import "./main/factoring_form.css";
+@import "background.css";
 *{
     margin: 0;
     padding: 0;

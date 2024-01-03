@@ -19,7 +19,9 @@
         </h3>
       </section>
       <section class="factoring">
-        <img src="../src/shape.svg" alt="shape" />
+        <div>
+          <img src="../src/shape.svg" alt="shape" class="img1" />
+        </div>
         <section class="factoring_information">
           <img
             class="img_promocion"
@@ -44,12 +46,13 @@
             </label>
           </div>
         </section>
-        <section>
+        <section class="factoring_form">
           <h2>
             Simula tu adelanto y conoce la mejor oferta que tenemos para ti.
           </h2>
-          <form action="">
+          <form action="" class="form">
             <input
+              class="form_data"
               type="text"
               name="dni"
               id="dni"
@@ -60,6 +63,7 @@
               placeholder="DNI"
             />
             <input
+              class="form_data"
               type="text"
               name="phone_number"
               id="phone_number"
@@ -70,13 +74,14 @@
               placeholder="Celular"
             />
             <input
+              class="form_data"
               type="email"
               name="email"
               id="email"
               required
               placeholder="E-mail"
             />
-            <div>
+            <div class="input_check">
               <input type="checkbox" id="accept" name="accept" checked />
               <label for="accept"
                 >He leído y acepto la
@@ -88,10 +93,12 @@
                 ></label
               >
             </div>
-            <input type="submit" value="Confirmar" />
+            <input type="submit" value="Comenzar" class="validateButton" />
           </form>
         </section>
-        <img src="../src/shape2.svg" alt="shape" />
+        <div class="div_img2">
+          <img src="../src/shape2.svg" alt="shape" class="img2" />
+        </div>
       </section>
     </main>
     <footer></footer>
