@@ -22,85 +22,94 @@
         <div>
           <img src="../src/shape.svg" alt="shape" class="img1" />
         </div>
-        <section class="factoring_information">
-          <img
-            class="img_promocion"
-            src="../src/Promocion.svg"
-            alt="promocion"
-          />
-          <!-- INFORMACIÓN PARA EL CLIENTE -->
-          <div class="information">
-            <ul>
-              <li class="li_1">
-                <strong>Desembolsos al 100% </strong>del cobro de tus facturas
-                el mismo día (*).
-              </li>
-              <li>
-                Aceptamos facturas <strong>sin montos mínimos</strong>, hasta un
-                plazo máximo de <strong>180 días</strong> calendario.
-              </li>
-            </ul>
-            <label>
-              (*) El otorgamiento del producto está sujeto a evaluación. <br />
-              Los desembolsos se realizan en días hábiles.
-            </label>
-          </div>
-        </section>
-        <section class="factoring_form">
-          <h2>
-            Simula tu adelanto y conoce la mejor oferta que tenemos para ti.
-          </h2>
-          <form action="" class="form">
-            <input
-              class="form_data"
-              type="text"
-              name="dni"
-              id="dni"
-              required
-              maxlength="8"
-              inputmode="numeric"
-              pattern="[0-9]{8}"
-              placeholder="DNI"
+        <section class="replace" id="replace">
+          <section class="factoring_information">
+            <img
+              class="img_promocion"
+              src="../src/Promocion.svg"
+              alt="promocion"
             />
-            <input
-              class="form_data"
-              type="text"
-              name="phone_number"
-              id="phone_number"
-              required
-              maxlength="9"
-              inputmode="numeric"
-              pattern="[0-9]{9}"
-              placeholder="Celular"
-            />
-            <input
-              class="form_data"
-              type="email"
-              name="email"
-              id="email"
-              required
-              placeholder="E-mail"
-            />
-            <div class="input_check">
-              <input type="checkbox" id="accept" name="accept" checked />
-              <label for="accept"
-                >He leído y acepto la
-                <a
-                  href="https://www.banbif.com.pe/Portals/0/PDF/CONSENTIMIENTO-DE-DATOS-PERSONALES.pdf"
-                  target="_blank"
-                  >Cláusula de información y consentimiento para tratamiento
-                  datos personales.</a
-                ></label
-              >
+            <!-- INFORMACIÓN PARA EL CLIENTE -->
+            <div class="information">
+              <ul>
+                <li class="li_1">
+                  <strong>Desembolsos al 100% </strong>del cobro de tus facturas
+                  el mismo día (*).
+                </li>
+                <li>
+                  Aceptamos facturas <strong>sin montos mínimos</strong>, hasta
+                  un plazo máximo de <strong>180 días</strong> calendario.
+                </li>
+              </ul>
+              <label>
+                (*) El otorgamiento del producto está sujeto a evaluación.
+                <br />
+                Los desembolsos se realizan en días hábiles.
+              </label>
             </div>
-            <input type="submit" value="Comenzar" class="validateButton" />
-          </form>
+          </section>
+          <section class="factoring_form">
+            <h2>
+              Simula tu adelanto y conoce la mejor oferta que tenemos para ti.
+            </h2>
+            <form action="" class="form" id="form">
+              <input
+                class="form_data"
+                type="text"
+                name="dni"
+                id="dni"
+                required
+                maxlength="8"
+                inputmode="numeric"
+                pattern="[0-9]{8}"
+                placeholder="DNI"
+              />
+              <input
+                class="form_data"
+                type="text"
+                name="phone_number"
+                id="phone_number"
+                required
+                maxlength="9"
+                inputmode="numeric"
+                pattern="[0-9]{9}"
+                placeholder="Celular"
+              />
+              <input
+                class="form_data"
+                type="email"
+                name="email"
+                id="email"
+                maxlength="50"
+                required
+                placeholder="E-mail"
+              />
+              <div class="input_check">
+                <input type="checkbox" id="checked" name="checked" checked />
+                <label for="checked"
+                  >He leído y acepto la
+                  <a
+                    href="https://www.banbif.com.pe/Portals/0/PDF/CONSENTIMIENTO-DE-DATOS-PERSONALES.pdf"
+                    target="_blank"
+                    >Cláusula de información y consentimiento para tratamiento
+                    datos personales.</a
+                  ></label
+                >
+              </div>
+              <input
+                type="submit"
+                value="Comenzar"
+                class="validateButton"
+                id="button"
+              />
+            </form>
+          </section>
         </section>
         <div class="div_img2">
           <img src="../src/shape2.svg" alt="shape" class="img2" />
         </div>
       </section>
     </main>
-    <footer></footer>
+    <script src="../JS/validation.js"></script>
   </body>
 </html>

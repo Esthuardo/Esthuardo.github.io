@@ -6,6 +6,7 @@
 @import "./main/factoring.css";
 @import "./main/factoring_information.css";
 @import "./main/factoring_form.css";
+@import "./main/factoring_results.css";
 @import "background.css";
 *{
     margin: 0;

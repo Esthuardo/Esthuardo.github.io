@@ -1,0 +1,44 @@
+.factoring_results{
+    display: flex;
+    align-items: center;
+    font-family: "Lato";
+    font-style: normal;
+    color: #004470;
+}
+.results{
+    margin-left: 21.0625rem;
+    margin-top: 3.3125rem;
+    width: 17.8125rem;
+}
+.results h3{
+    font-size: 28px;
+    font-weight: 600px;
+    margin-bottom: 1.75rem;
+}
+.results h2{
+    font-size: 64px;
+    font-weight: 700px;
+    margin-bottom: 2.5rem;
+}
+.results h4{
+    color: rgba(0, 68, 112, 0.50);
+    font-size: 16px;
+    font-weight: 600;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 28.9375rem;
+    margin-top: 4.625rem;
+    margin-left: 7.0625rem;
+    gap: 1.125rem;
+}
+.text1{
+    font-size: 16px;
+    font-weight: 400;
+}
+.text2{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0, 68, 112, 0.50);
+}
