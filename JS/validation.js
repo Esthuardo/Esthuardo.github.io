@@ -43,41 +43,41 @@ function validateData(e) {
 
 function showResults() {
   //FORMA EN CASO NO SE EJECUTE COMO SERVIDOR LOCAL
-  replace.innerHTML = `
-  <section class="replaceResult" id="replaceResult">
-    <section class="factoring_results">
-      <hgroup class="results">
-        <h3>Monto a desembolsar:</h3>
-        <h2>S/1,000</h2>
-        <h4>
-          Tasa de interés efectiva anual: 23% <br />
-          La Tasa es referencial.
-        </h4>
-      </hgroup>
-      <section class="text">
-        <p class="text1">
-          Sabemos que estás interesado en el producto, por eso dentro de las 24
-          horas hábiles siguientes, 9-6pm, un ejecutivo BanBif se comunicará
-          contigo al número brindado para brindarte mayor información.
-        </p>
-        <p class="text2">
-          Las comisiones del producto pueden ser consultadas en el Tarifario
-          General de BanBif, disponible en nuestra página web www.banbif.pe
-        </p>
-      </section>
-    </section>
-  </section>
-  `;
+  // replace.innerHTML = `
+  // <section class="replaceResult" id="replaceResult">
+  //   <section class="factoring_results">
+  //     <hgroup class="results">
+  //       <h3>Monto a desembolsar:</h3>
+  //       <h2>S/1,000</h2>
+  //       <h4>
+  //         Tasa de interés efectiva anual: 23% <br />
+  //         La Tasa es referencial.
+  //       </h4>
+  //     </hgroup>
+  //     <section class="text">
+  //       <p class="text1">
+  //         Sabemos que estás interesado en el producto, por eso dentro de las 24
+  //         horas hábiles siguientes, 9-6pm, un ejecutivo BanBif se comunicará
+  //         contigo al número brindado para brindarte mayor información.
+  //       </p>
+  //       <p class="text2">
+  //         Las comisiones del producto pueden ser consultadas en el Tarifario
+  //         General de BanBif, disponible en nuestra página web www.banbif.pe
+  //       </p>
+  //     </section>
+  //   </section>
+  // </section>
+  // `;
   //FORMA EN CASO SE EJECUTE EN SERVIDOR LOCAL
 
-  // fetch("../pages/simulation_result.html")
-  //   .then((response) => response.text())
-  //   .then((html) => {
-  //     replace.innerHTML = html;
-  //   })
-  //   .catch((error) => {
-  //     console.error("Error al cargar resultados.html", error);
-  //   });
+  fetch("../pages/simulation_result.html")
+    .then((response) => response.text())
+    .then((html) => {
+      replace.innerHTML = html;
+    })
+    .catch((error) => {
+      console.error("Error al cargar resultados.html", error);
+    });
 }
 
 form.addEventListener("submit", function (e) {

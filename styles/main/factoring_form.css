@@ -47,7 +47,7 @@
     font-weight: 700;
     background: var(--degrade-button-primary, linear-gradient(98deg, #A281E5 0.01%, #8D4EF9 24.85%, #4764FF 70.51%, #1CA4FF 94.28%));
 }
-.factoring_form label{
+.form_label{
     display: none;
     color: rgba(0, 68, 112, 0.50);
     font-family: "Lato";
@@ -63,7 +63,7 @@
         margin: 2rem 0 0 0;
         padding-right: 0;
     }
-    .factoring_form label{
+    .form_label{
         display: block;
     }
 }

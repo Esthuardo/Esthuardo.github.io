@@ -42,3 +42,23 @@
     font-weight: 500;
     color: rgba(0, 68, 112, 0.50);
 }
+
+@media (max-width:768px) {
+    .factoring_results{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .results{
+        margin-left: 0;
+        margin-top: 1.25rem ;
+    }
+    .text{
+        margin-top: 2.4375rem;
+        margin-left: 0;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        width: 100%;
+    }
+
+}
