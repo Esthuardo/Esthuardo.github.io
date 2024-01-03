@@ -2,17 +2,17 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    /* width: 12.375rem;
-    height: 12.375rem; */
+    width: 12.375rem;
+    /* height: 12.375rem; */
 }
 .div_img2{
-    padding-top: 1.5625rem;
+    padding-top: 0.5rem;
 }
 .img2{
     position: absolute;
     right: 0;
-    /* width: 12.375rem;
-    height: 12.375rem; */
+    /* width: 12.375rem; */
+    height: 12.375rem; 
 }
 
 @media (max-width:768px) {
