@@ -1,0 +1,41 @@
+.factoring_information{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: 500;
+}
+.img_promocion{
+    width: 11.625rem;
+    height: 15.125rem;
+    flex-shrink: 0;
+}
+.information{
+    width: 21.5625rem;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    
+}
+.information ul{
+    font-family: "Lato";
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    /* list-style-image: url("../../src/list-ckeck.svg"); */
+    list-style-type: none;
+}
+.information ul li {
+  background-image: url("../../src/list-ckeck.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+}
+.information strong{
+    font-weight: 800;
+}
+.li_1{
+    font-weight: 600;
+}

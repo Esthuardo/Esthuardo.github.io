@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,500,700');
+
+@import "header.css";
+@import "./main/hero.css";
+@import "./main/factoring.css";
+@import "./main/factoring_information.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
